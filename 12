@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myApp">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://code.angularjs.org/1.6.0-rc.2/angular.min.js"></script>
+    <script src="https://code.angularjs.org/1.6.0-rc.0/angular-messages.min.js"></script>
+    <script src="https://code.angularjs.org/1.6.0-rc.0/angular-resource.min.js"></script>
+    <script src="https://code.angularjs.org/1.6.0-rc.0/angular-route.min.js"></script>
+    <script src="part.js"></script>
+</head>
+<body>
+
+<div ng-controller="FirstController">
+
+
+
+</div>
+
+
+</body>
+</html>
+
+
+------------------------------------------------WE CAN DEFINE OUR OWN SERVICEs---------------------
+
+var app = angular.module('myApp' , ['ngRoute'] );
+
+app.config(function($routeProvider){
+
+     $routeProvider
+
+     .when('/' , {
+
+         templateurl : 'pages/main.html' ,
+         controller : 'FirstController'
+     })
+
+});
+
+app.service('myservice' , function(){
+      var self = this;
+      this.name = " Amar Prakash ";
+      this.namelength = function(){
+           return self.name.length;
+      }
+})
+
+app.controller('FirstController' , function($log, $scope ,myservice ){
+    $log.log(myservice.name);
+    $log.log(myservice.namelength());
+});
+
+
+
