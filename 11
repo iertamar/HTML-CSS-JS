@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myApp">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://code.angularjs.org/1.6.0-rc.2/angular.min.js"></script>
+    <script src="https://code.angularjs.org/1.6.0-rc.0/angular-messages.min.js"></script>
+    <script src="https://code.angularjs.org/1.6.0-rc.0/angular-resource.min.js"></script>
+    <script src="part.js"></script>
+</head>
+<body>
+
+<div ng-controller="FirstController">
+
+    <a href="#bookmark">go to bookmark</a>
+    <p>
+        India is a vast South Asian country with diverse terrain –
+        from Himalayan peaks to Indian Ocean coastline – and history
+        reaching back 5 millennia. In the north, Mughal Empire landmarks
+        include Delhi’s Red Fort complex and massive Jama Masjid mosque,
+        plus Agra’s iconic Taj Mahal mausoleum. Pilgrims bathe in the
+        Ganges in Varanasi, and Rishikesh is a yoga centre and base for
+        Himalayan trekking.
+    </p>
+    <p>
+        India is a vast South Asian country with diverse terrain –
+        from Himalayan peaks to Indian Ocean coastline – and history
+        reaching back 5 millennia. In the north, Mughal Empire landmarks
+        include Delhi’s Red Fort complex and massive Jama Masjid mosque,
+        plus Agra’s iconic Taj Mahal mausoleum. Pilgrims bathe in the
+        Ganges in Varanasi, and Rishikesh is a yoga centre and base for
+        Himalayan trekking.
+    </p>
+    <p>
+        India is a vast South Asian country with diverse terrain –
+        from Himalayan peaks to Indian Ocean coastline – and history
+        reaching back 5 millennia. In the north, Mughal Empire landmarks
+        include Delhi’s Red Fort complex and massive Jama Masjid mosque,
+        plus Agra’s iconic Taj Mahal mausoleum. Pilgrims bathe in the
+        Ganges in Varanasi, and Rishikesh is a yoga centre and base for
+        Himalayan trekking.
+    </p><p>
+    India is a vast South Asian country with diverse terrain –
+    from Himalayan peaks to Indian Ocean coastline – and history
+    reaching back 5 millennia. In the north, Mughal Empire landmarks
+    include Delhi’s Red Fort complex and massive Jama Masjid mosque,
+    plus Agra’s iconic Taj Mahal mausoleum. Pilgrims bathe in the
+    Ganges in Varanasi, and Rishikesh is a yoga centre and base for
+    Himalayan trekking.
+</p><p>
+    India is a vast South Asian country with diverse terrain –
+    from Himalayan peaks to Indian Ocean coastline – and history
+    reaching back 5 millennia. In the north, Mughal Empire landmarks
+    include Delhi’s Red Fort complex and massive Jama Masjid mosque,
+    plus Agra’s iconic Taj Mahal mausoleum. Pilgrims bathe in the
+    Ganges in Varanasi, and Rishikesh is a yoga centre and base for
+    Himalayan trekking.
+</p><p>
+    India is a vast South Asian country with diverse terrain –
+    from Himalayan peaks to Indian Ocean coastline – and history
+    reaching back 5 millennia. In the north, Mughal Empire landmarks
+    include Delhi’s Red Fort complex and massive Jama Masjid mosque,
+    plus Agra’s iconic Taj Mahal mausoleum. Pilgrims bathe in the
+    Ganges in Varanasi, and Rishikesh is a yoga centre and base for
+    Himalayan trekking.
+</p><p>
+    India is a vast South Asian country with diverse terrain –
+    from Himalayan peaks to Indian Ocean coastline – and history
+    reaching back 5 millennia. In the north, Mughal Empire landmarks
+    include Delhi’s Red Fort complex and massive Jama Masjid mosque,
+    plus Agra’s iconic Taj Mahal mausoleum. Pilgrims bathe in the
+    Ganges in Varanasi, and Rishikesh is a yoga centre and base for
+    Himalayan trekking.
+</p>
+
+
+
+
+
+    <a id="bookmark"><strong> BOOKMARK </strong>></a>
+    <p>
+        India is a vast South Asian country with diverse terrain –
+        from Himalayan peaks to Indian Ocean coastline – and history
+        reaching back 5 millennia. In the north, Mughal Empire landmarks
+        include Delhi’s Red Fort complex and massive Jama Masjid mosque,
+        plus Agra’s iconic Taj Mahal mausoleum. Pilgrims bathe in the
+        Ganges in Varanasi, and Rishikesh is a yoga centre and base for
+        Himalayan trekking.
+    </p>
+    <p>
+        India is a vast South Asian country with diverse terrain –
+        from Himalayan peaks to Indian Ocean coastline – and history
+        reaching back 5 millennia. In the north, Mughal Empire landmarks
+        include Delhi’s Red Fort complex and massive Jama Masjid mosque,
+        plus Agra’s iconic Taj Mahal mausoleum. Pilgrims bathe in the
+        Ganges in Varanasi, and Rishikesh is a yoga centre and base for
+        Himalayan trekking.
+    </p><p>
+    India is a vast South Asian country with diverse terrain –
+    from Himalayan peaks to Indian Ocean coastline – and history
+    reaching back 5 millennia. In the north, Mughal Empire landmarks
+    include Delhi’s Red Fort complex and massive Jama Masjid mosque,
+    plus Agra’s iconic Taj Mahal mausoleum. Pilgrims bathe in the
+    Ganges in Varanasi, and Rishikesh is a yoga centre and base for
+    Himalayan trekking.
+</p><p>
+    India is a vast South Asian country with diverse terrain –
+    from Himalayan peaks to Indian Ocean coastline – and history
+    reaching back 5 millennia. In the north, Mughal Empire landmarks
+    include Delhi’s Red Fort complex and massive Jama Masjid mosque,
+    plus Agra’s iconic Taj Mahal mausoleum. Pilgrims bathe in the
+    Ganges in Varanasi, and Rishikesh is a yoga centre and base for
+    Himalayan trekking.
+</p><p>
+    India is a vast South Asian country with diverse terrain –
+    from Himalayan peaks to Indian Ocean coastline – and history
+    reaching back 5 millennia. In the north, Mughal Empire landmarks
+    include Delhi’s Red Fort complex and massive Jama Masjid mosque,
+    plus Agra’s iconic Taj Mahal mausoleum. Pilgrims bathe in the
+    Ganges in Varanasi, and Rishikesh is a yoga centre and base for
+    Himalayan trekking.
+</p>
+
+
+
+
+</div>
+</body>
+</html>
+
+--------------------------------------------------------------------------
+
+var app = angular.module('myApp' , [] );
+app.controller('FirstController' , function($log, $scope ,$timeout ){
+     window.addEventListener('mouseover' , function(){
+
+        if(window.location.hash==='#bookmark')
+        {
+           console.log("Page mast hai");
+        }
+     });
+
+});
+
+
+
