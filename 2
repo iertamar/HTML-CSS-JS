@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myApp">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://code.angularjs.org/1.6.0-rc.2/angular.min.js"></script>
+    <script src="https://code.angularjs.org/1.6.0-rc.0/angular-messages.min.js"></script>
+    <script src="https://code.angularjs.org/1.6.0-rc.0/angular-resource.min.js"></script>
+    <script src="part.js"></script>
+    <script src="part2.js"></script>
+</head>
+<body>
+
+<div ng-controller="thecontroller">
+    <div>hi {{name +". How are You ?"}}</div>
+    
+</div>
+</body>
+</html>
+
+----------------------------------------------------------------------------------------------------------------------------------
+
+var app = angular.module('myApp' , ['ngMessages' ] );
+app.controller('thecontroller' , function($log, $scope ,$timeout ){
+     $scope.name = "amar";
+
+
+     $timeout(function(){$scope.name = "APM";},3000);
+});
+
